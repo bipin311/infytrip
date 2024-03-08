@@ -1,0 +1,92 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.landingImage {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.subscribeImage {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.listImages {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 0));
+}
+
+.hotelListImages {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0));
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.link {
+  color: #FFF;
+}
+
+.ant-checkbox-group-item {
+  margin-right: 40px;
+
+}
+
+.ant-steps-item-tail {
+  z-index: -2;
+}
+
+.ant-input:focus {
+  border-color: #06A69E;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+}
+
+.ant-picker-focused {
+  border-color: #06A69E;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+}
+
+.ant-select:focus {
+  border-color: #06A69E;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+}
+

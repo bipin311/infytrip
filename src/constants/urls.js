@@ -1,0 +1,1 @@
+export const DEFAULT_URL = "https://api.stg.infytrip.com.au/";
